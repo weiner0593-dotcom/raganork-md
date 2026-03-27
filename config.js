@@ -249,11 +249,11 @@ const baseConfig = {
     process.env.AUDIO_DATA === undefined || process.env.AUDIO_DATA === "private"
       ? "default"
       : process.env.AUDIO_DATA,
-  TAKE_KEY: process.env.TAKE_KEY || "",
+  TAKE_KEY: process.env.TAKE_KEY || "RGNK~CIBEKa3u",
   CMD_REACTION: convertToBool(process.env.CMD_REACTION) || false,
   MODE: process.env.MODE || "private",
   WARN: process.env.WARN || "4",
-  ANTILINK_WARN: process.env.ANTILINK_WARN || "",
+  ANTILINK_WARN: process.env.ANTILINK_WARN || "3",
   ANTI_DELETE: convertToBool(process.env.ANTI_DELETE) || true,
   SUDO: process.env.SUDO || "",
   LANGUAGE: process.env.LANGUAGE || "english",
